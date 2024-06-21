@@ -6,40 +6,11 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "caller",
+						"internalType": "contract Callee",
+						"name": "_callee",
 						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
-					}
-				],
-				"name": "Received",
-				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_message",
-						"type": "string"
 					},
 					{
 						"internalType": "uint256",
@@ -47,14 +18,44 @@
 						"type": "uint256"
 					}
 				],
-				"name": "foo",
-				"outputs": [
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_x",
 						"type": "uint256"
 					}
 				],
+				"name": "setXFromAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Callee",
+						"name": "_callee",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXandSendEther",
+				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			}
@@ -72,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Daulat Hussain/call keyword.sol": "Receiver"
+			"contracts/Daulat Hussain/Call other contracts.sol": "Caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -86,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Daulat Hussain/call keyword.sol": {
-			"keccak256": "0x4e7b3621e34a10cc0d6ce1bdb8111ce99989a4bdcc0f7666a4628e4af6078818",
+		"contracts/Daulat Hussain/Call other contracts.sol": {
+			"keccak256": "0x1983a3f67157fa0061e076e152d701221fbd6e0e792d1ec215b92f74c037b3c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85b12a96f946fdeaf12c0882bdf1cd67e48911459a25a5225a011765428eea6c",
-				"dweb:/ipfs/Qmb6ekuMR41wZUfGvWd19Q9q49VfrHSNbYqLjCePAp6A3Y"
+				"bzz-raw://8a4f99b8cc4e33acf8e9dfbe54a38b61487d46f8e5cc3140b6f092e4a1bbb642",
+				"dweb:/ipfs/QmY9xNw63fGg1uKpkEKnnHPW1F8XG8mD5LtgbML8LTrZVw"
 			]
 		}
 	},

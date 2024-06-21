@@ -36,5 +36,4 @@ contract caller
     
         emit Response(success, data);
     }
-
 }
