@@ -6,15 +6,15 @@ contract Callee
     uint public x;
     uint public value;
 
-    function setX(uint _x) public returns (uint)
+    function setX(uint _xr) public returns (uint)
     {
-        x = _x;
+        x = _xr;
         return x;
     }
 
-    function setXandSendEther(uint _x) public payable returns (uint, uint) 
+    function setXandSendEther(uint _xx) public payable returns (uint, uint) 
     {
-        x = _x;
+        x = _xx;
         value = msg.value;
 
         return (x, value);
@@ -23,19 +23,19 @@ contract Callee
 
 contract Caller
 {
-    function setX(Callee _callee, uint _x) public
+    function setX(Callee _callee, uint _xq) public
     {
-        uint x = _callee.setX(_x);
+        uint x = _callee.setX(_xq);
     }
 
-    function setXFromAddress(address _addr, uint _x) public
+    function setXFromAddress(address _addr, uint _xp) public
     {
         Callee callee = Callee(_addr);
-        callee.setX(_x);
+        callee.setX(_xp);
     }
 
-    function setXandSendEther(Callee _callee, uint _x) public payable
+    function setXandSendEther(Callee _callee, uint _xi) public payable
     {
-        (uint x, uint value) = _callee.setXandSendEther{value: msg.value}(_x);
+        (uint x, uint value) = _callee.setXandSendEther{value: msg.value}(_xi);
     }
 }

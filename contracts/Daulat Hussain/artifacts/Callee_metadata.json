@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.13+commit.abaa5c0e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "_xr",
 						"type": "uint256"
 					}
 				],
@@ -28,7 +28,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "_xx",
 						"type": "uint256"
 					}
 				],
@@ -90,7 +90,7 @@
 		"compilationTarget": {
 			"contracts/Daulat Hussain/Call other contracts.sol": "Callee"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -103,11 +103,11 @@
 	},
 	"sources": {
 		"contracts/Daulat Hussain/Call other contracts.sol": {
-			"keccak256": "0x1983a3f67157fa0061e076e152d701221fbd6e0e792d1ec215b92f74c037b3c2",
+			"keccak256": "0xb92caa814aef46b63b0331252b590f3260b14d61c4e4b01e24aa30642b1d1db4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8a4f99b8cc4e33acf8e9dfbe54a38b61487d46f8e5cc3140b6f092e4a1bbb642",
-				"dweb:/ipfs/QmY9xNw63fGg1uKpkEKnnHPW1F8XG8mD5LtgbML8LTrZVw"
+				"bzz-raw://cf05cb582b4732271411aa3a9db6ecd50ab17f486f2b4cd26d3c2d30bef5f3c3",
+				"dweb:/ipfs/QmaAGw2FY9DRiMJmaECoVJaLMo2jewprqf3Sojrb5nHfxf"
 			]
 		}
 	},
