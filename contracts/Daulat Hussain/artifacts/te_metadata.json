@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Daulat Hussain/ABI Encode.sol": "te"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Daulat Hussain/ABI Encode.sol": {
+			"keccak256": "0xac2b7c210f99e3d8ce6ab2251fad106351f279aa37065043791ea7277ee79d62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6cc2680e3dae51daba54f767466a416592e3573c1cda312230a7408a6f1cdebb",
+				"dweb:/ipfs/QmSXoY9ZtfArzrFhgMnQYPBJNUyRZcK97heYhByVU2hcTK"
+			]
+		}
+	},
+	"version": 1
+}

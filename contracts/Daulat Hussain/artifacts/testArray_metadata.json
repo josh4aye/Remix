@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testArrayRemove",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Daulat Hussain/Library.sol": "testArray"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Daulat Hussain/Library.sol": {
+			"keccak256": "0x0527a783fd720e91764a19cf5355bdea6c6f449f5f56917eabd5abd2dbd2b01a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75d6e8881ac1e3f88c43305243cea10737bb2ebb9c1074a5276275f2f33f3dce",
+				"dweb:/ipfs/QmYecsxbhdhemRD1SusqQCPViaTK67NQCddkz5UGZEXJKN"
+			]
+		}
+	},
+	"version": 1
+}
