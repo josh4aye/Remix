@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Daulat Hussain/Medical Smart Contract.sol": "MedidalHistory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Daulat Hussain/Medical Smart Contract.sol": {
+			"keccak256": "0x8f4b073f8168df10a16d138bce29005be601a3ed528538e80a68be89631663a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1bd8ec8ffc4dfa2f0fb2cf87d98731d1f45c7daddbaadb0f474c14c190133baf",
+				"dweb:/ipfs/Qmb7nrfhnW9bsMeY2ETpLrFkLPNr2gMrjAQ3fMnNztxS29"
+			]
+		}
+	},
+	"version": 1
+}

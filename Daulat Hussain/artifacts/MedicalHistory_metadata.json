@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Daulat Hussain/ABI Encode.sol": "Name"
+			"contracts/Daulat Hussain/Medical Smart Contract.sol": "MedicalHistory"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Daulat Hussain/ABI Encode.sol": {
-			"keccak256": "0x0792731114dd5aeac4b82c1ccddea7eab1de663acfb82f1f5b6295382b6ac2a9",
+		"contracts/Daulat Hussain/Medical Smart Contract.sol": {
+			"keccak256": "0x05ddf587fe7afb41077be6d1747bdc08666fd2b420cb3471c8d1a3f46925714f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6563bed040d86d35b34d36b897a620f67df37cd7fb96bc5f1a6d0c3ec99c9fe8",
-				"dweb:/ipfs/QmQSSZWfv88qS1TE1YsiSCXxe3oyQBmUZ1RyKoj3Tqr2m2"
+				"bzz-raw://72bd02876e43b78aff210b20b5857843e800fa76e019733b5854a14d1a689a3e",
+				"dweb:/ipfs/QmaE4ZutQNy1S3qfZT2nTY8ATbyxL2FkQ6hVMvH5Vdv36S"
 			]
 		}
 	},

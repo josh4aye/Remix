@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Daulat Hussain/Medical Smart Contract.sol": "Mecidal"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Daulat Hussain/Medical Smart Contract.sol": {
+			"keccak256": "0xe7b055088f0a59243192c6af29f2bf3723a1abfaf3981d5aa23be6d900132129",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://529e293309282944b625f7d56d52d51415614c15313c0379b3d2eb55cbd7fde3",
+				"dweb:/ipfs/QmZasWinmqDfZ9219pdhnTZ3Bgf4oji4FmMbPFkxvS1EkM"
+			]
+		}
+	},
+	"version": 1
+}

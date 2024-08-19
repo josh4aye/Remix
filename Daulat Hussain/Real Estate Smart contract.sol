@@ -20,7 +20,7 @@ contract RealEstate
 
     mapping (uint256 => Property) public propertylist;
 
-    uint[] public propertyID;
+    uint256 [] public propertyID;
 
     event propertysold (uint256 propertyID);
 

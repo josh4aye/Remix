@@ -1,0 +1,180 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_conditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_allergies",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_medications",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_procedures",
+						"type": "string[]"
+					}
+				],
+				"name": "addPatient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_patientAddress",
+						"type": "address"
+					}
+				],
+				"name": "getPatient",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "patients",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "_conditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_allergies",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_medications",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_procedures",
+						"type": "string[]"
+					}
+				],
+				"name": "updatePatient",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Daulat Hussain/Medical Smart Contract.sol": "MecidalHistory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Daulat Hussain/Medical Smart Contract.sol": {
+			"keccak256": "0x3b889c5000b579799f9da8961597b89f164a4c09fb7ac08cc6a80aa7bc48628f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://788cd7883c9607d473d25549412e1e21c23d549a68e87fbb63a7e78f7e84da44",
+				"dweb:/ipfs/QmXEJNRSbxQxsJE6gPnGKrmhoASnfMQgf8y45Pc3GcbV8H"
+			]
+		}
+	},
+	"version": 1
+}
