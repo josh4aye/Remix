@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/cyfrin updraft/Storage Factory/Copy_SimpleStorage.sol": "SimpleStorage4"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/cyfrin updraft/Storage Factory/Copy_SimpleStorage.sol": {
+			"keccak256": "0x2282caa5fc250df74bef65049518ab4db67bde04d576620dfbdcb0e31758a022",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d81cde1f3e895876f1a3f4aeedf44487cdb581b057fbaad3c1390217f2d5458",
+				"dweb:/ipfs/QmZkNHrPmShDmVRfPUDqXHTDacKXLrNGWtjQHsEBfpTQCm"
+			]
+		}
+	},
+	"version": 1
+}
